@@ -26,7 +26,6 @@ static id _instance;
  */
 
 
-//init 方法的一个作用,将所用的数据进行初始化,不管你原来有没有数据
 +(instancetype)shareInstance{
     
     if (!_instance) {
