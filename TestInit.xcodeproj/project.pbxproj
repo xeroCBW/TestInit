@@ -13,6 +13,7 @@
 		D01178C51EC2F32100E532A3 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01178C31EC2F32100E532A3 /* Main.storyboard */; };
 		D01178C71EC2F32100E532A3 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D01178C61EC2F32100E532A3 /* Assets.xcassets */; };
 		D01178CA1EC2F32100E532A3 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = D01178C81EC2F32100E532A3 /* LaunchScreen.storyboard */; };
+		D01178D31EC2F33200E532A3 /* Singleton.m in Sources */ = {isa = PBXBuildFile; fileRef = D01178D21EC2F33200E532A3 /* Singleton.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +27,8 @@
 		D01178C61EC2F32100E532A3 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D01178C91EC2F32100E532A3 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		D01178CB1EC2F32100E532A3 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		D01178D11EC2F33200E532A3 /* Singleton.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = Singleton.h; sourceTree = "<group>"; };
+		D01178D21EC2F33200E532A3 /* Singleton.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = Singleton.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -62,6 +65,8 @@
 				D01178BE1EC2F32100E532A3 /* AppDelegate.m */,
 				D01178C01EC2F32100E532A3 /* ViewController.h */,
 				D01178C11EC2F32100E532A3 /* ViewController.m */,
+				D01178D11EC2F33200E532A3 /* Singleton.h */,
+				D01178D21EC2F33200E532A3 /* Singleton.m */,
 				D01178C31EC2F32100E532A3 /* Main.storyboard */,
 				D01178C61EC2F32100E532A3 /* Assets.xcassets */,
 				D01178C81EC2F32100E532A3 /* LaunchScreen.storyboard */,
@@ -151,6 +156,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				D01178C21EC2F32100E532A3 /* ViewController.m in Sources */,
+				D01178D31EC2F33200E532A3 /* Singleton.m in Sources */,
 				D01178BF1EC2F32100E532A3 /* AppDelegate.m in Sources */,
 				D01178BC1EC2F32100E532A3 /* main.m in Sources */,
 			);

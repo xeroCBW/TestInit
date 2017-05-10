@@ -7,6 +7,8 @@
 //
 
 #import "ViewController.h"
+#import "Singleton.h"
+
 
 @interface ViewController ()
 
@@ -17,13 +19,21 @@
 - (void)viewDidLoad {
     [super viewDidLoad];
     // Do any additional setup after loading the view, typically from a nib.
+    
+     [Singleton shareInstance].num = 10;
+}
+
+/** 再次测试*/
+- (IBAction)test:(id)sender {
+    
+    NSLog(@"num=10不会再次init----%d",[Singleton shareInstance].num);
 }
 
 
-- (void)didReceiveMemoryWarning {
-    [super didReceiveMemoryWarning];
-    // Dispose of any resources that can be recreated.
+/** 初次测试*/
+- (IBAction)testAgain:(id)sender {
+    
+    NSLog(@"num=10会再次init----%d",[Singleton share].num);
 }
-
 
 @end
